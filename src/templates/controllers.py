@@ -6,8 +6,8 @@ def helper_trainee(trainee) -> dict:
     return {
         "id": str(trainee["_id"]),
         "document": str(trainee["document"]),
-        "firstname": trainee["firstname"],
-        "lastname": trainee["lastname"],
+        "first_name": trainee["first_name"],
+        "last_name": trainee["last_name"],
         "email": trainee["email"],
         "age": trainee["age"],
         "program": trainee["program"],

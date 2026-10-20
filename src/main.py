@@ -11,7 +11,7 @@ app = FastAPI(
 #mesaje de bienvenida
 @app.get("/")
 async def root():
-    return{"message": "API simple de fastAPI "}
+    return{"message": "API simple de fastAPI y desplegada en RENDER "}
 
 # registrar aprendices
 @app.post(
