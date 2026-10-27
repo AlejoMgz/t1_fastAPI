@@ -6,5 +6,6 @@ httpx
 pymongo
 
 
-
+#1. Crear la interfaz en consola para el consumo de la API desde el CLI
+#2. Crear un archivo readme
 
